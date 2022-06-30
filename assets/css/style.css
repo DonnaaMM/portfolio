@@ -10,11 +10,12 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #2f2f2f;
+  color: #878787;
+  background-color: #1c1c1c;
 }
 
 a {
-  color: #ad7b84;
+  color: #9dff00;
   text-decoration: none;
 }
 
@@ -37,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 9999;
-  background: #4d313d;
+  background: #344645;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #000000;
+  background: #4d313d;
   color: #fff;
 }
 .back-to-top.active {
@@ -65,8 +66,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   height: 60px;
-  background: rgb(88, 83, 84);
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+  background: #344645;
+  box-shadow: 0px 0px 20px 0px rgba(108, 108, 108, 0.12);
 }
 #header .logo h1 {
   font-size: 26px;
@@ -116,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 14px;
-  color: #ffffff;
+  color: #858383;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -229,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: rgb(88, 83, 84);
+  background-color: #1c1c1c;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -330,7 +331,7 @@ section {
 }
 
 .section-bg {
-  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+  background-color: #1c1c1c;
 }
 
 .section-title {
@@ -342,15 +343,15 @@ section {
   margin-bottom: 15px;
   padding-bottom: 15px;
   position: relative;
-  color: #4d313d;
+  color: #344645;
 }
 .section-title h2::after {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
-  height: 3px;
-  background: #898989;
+  width: 80px;
+  height: 2px;
+  background: #4d313d;
   bottom: 0;
   left: 0;
 }
@@ -408,7 +409,7 @@ section {
 .about .content h3 {
   font-weight: 500;
   font-size: 34px;
-  color: #4d313d;
+
 }
 .about .content p {
   margin-bottom: 0;
@@ -455,7 +456,7 @@ section {
 .about .image {
   background: url("../img/edit2t\ copy.jpg") center center no-repeat;
   background-size: cover;
-  min-height: 400px;
+  min-height: 700px;
 }
 @media (max-width: 991px) {
   .about .image {
@@ -486,20 +487,20 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #434343;
+  color: #9f9f9f;
 }
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
 .skills .progress-bar-wrap {
-  background: #f1f1f1;
+  background: #bab9b9;
 }
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #6c716b;
+  background-color: #5b5b4a;
 }
 
 /*--------------------------------------------------------------
@@ -510,30 +511,31 @@ section {
   font-weight: 500;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #222222;
+  color: #7c6a5f;
   font-family: "Poppins", sans-serif;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #020202;
+  border-left: 2px solid #ffffff;
   position: relative;
 }
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  color:#776172;
+  color: #5b5b4a;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #dbdfe3;
+  background: #2d2d2d;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 400;
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
+  color: rgb(172, 172, 172);
 }
 .resume .resume-item ul {
   padding-left: 20px;
@@ -552,8 +554,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #000000;
+  background: rgb(252, 252, 252);
+  border: 2px solid rgb(255, 255, 255);
 }
 
 /*--------------------------------------------------------------
@@ -563,8 +565,8 @@ section {
   padding: 20px 15px;
   position: relative;
   overflow: hidden;
-  background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
+  background: #344645;
+  box-shadow: 0 0 29px 0 rgba(102, 102, 102, 0.2);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   text-align: center;
@@ -581,7 +583,7 @@ section {
   z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: #4d313d;
+  background: #344645;
   height: 100%;
   border-radius: 0px;
 }
@@ -593,13 +595,13 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #4d313d;
+  background: #344645;
   transition: all 0.3s ease-in-out;
 }
 .services .icon i {
-  font-size: 36px;
+  font-size: 30px;
   line-height: 1;
-  color: #fff;
+  color: #ffffff;
 }
 .services .title {
   font-weight: 700;
@@ -615,13 +617,13 @@ section {
   margin-bottom: 0;
 }
 .services .icon-box:hover .title a, .services .icon-box:hover .description {
-  color: #fff;
+  color: #4d313d;
 }
 .services .icon-box:hover .icon {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: #4d313d;
+  color: #1c1c1c;
 }
 @media (max-width: 768px) {
   .services .icon-box::before {
@@ -635,12 +637,13 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: rgb(88, 83, 84);
+  background: #344645;
   border-radius: 50px;
   padding: 2px 15px;
   box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.08);
@@ -653,7 +656,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #b2b2b2;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -807,22 +810,22 @@ section {
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
-  border: 6px solid #fff;
+  border: 6px solid #4d313d;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #4d313d;
+  color: #7c6a5f;
 }
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #816c76;
+  color: #5b5b4a;
   margin: 0 0 0 45px;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #8f8f8f;
+  color: #4d313d;
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -838,9 +841,10 @@ section {
 }
 .testimonials .testimonial-item p {
   font-style: italic;
+  color: #c9c9c9;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background: #fff;
+  background: #344645;
   position: relative;
   border-radius: 6px;
   position: relative;
@@ -854,7 +858,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: rgb(109, 36, 36);
   opacity: 1;
   border: 1px solid #4d313d;
 }
