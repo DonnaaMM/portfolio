@@ -287,8 +287,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #ffff
 }
+
+
 #hero h2 {
   color: #eee;
   margin-bottom: 10px;
@@ -623,7 +625,7 @@ section {
   margin-bottom: 0;
 }
 .services .icon-box:hover .title a, .services .icon-box:hover .description {
-  color: #4d313d;
+  color: #a58d81;
 }
 .services .icon-box:hover .icon {
   background: #fff;
@@ -667,7 +669,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #4d313d;
+  color: #a58d81;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -816,22 +818,22 @@ section {
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
-  border: 6px solid #4d313d;
+  border: 6px solid #101010;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #7c6a5f;
+  color: #a58d81;
 }
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #5b5b4a;
+  color: #344645;
   margin: 0 0 0 45px;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #4d313d;
+  color: #2a2a2a;
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -888,13 +890,13 @@ section {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #4d313d;
+  color: #a58d81;
 }
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Playfair Display", serif;
-  color: #4d313d;
+  color: #a58d81;
 }
 .contact .social-links {
   padding-bottom: 20px;
@@ -903,7 +905,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #4d313d;
+  color: #344645;
   line-height: 0;
   padding: 8px 0;
   margin-right: 4px;
@@ -912,18 +914,18 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #4d313d;
+  border: 1px solid #344645;
 }
 .contact .social-links a:hover {
-  background: #4d313d;
+  background: #a58d81;
   color: #fff;
 }
 .contact .info {
-  color: #5a656e;
+  color: #a58d81;
 }
 .contact .info i {
   font-size: 32px;
-  color: #4d313d;
+  color: #344645;
   line-height: 0;
   margin-right: 15px;
 }
