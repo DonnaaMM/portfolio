@@ -1010,16 +1010,19 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
-  padding: 24px 0;
-  font-size: 14px;
+  background-color: #344645;
+  padding: 20px 0;
+  font-size: 10px;
   box-shadow: 0px 0 20px 0 rgba(0, 0, 0, 0.12);
 }
 #footer .copyright {
-  text-align: center;
+  text-align: right;
+  color: #ffffff;
 }
 #footer .credits {
   padding-top: 8px;
   text-align: center;
-  font-size: 13px;
+  font-size: 10px;
+  text-align: right;
+  color: #344645;
 }
