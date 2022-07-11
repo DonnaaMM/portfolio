@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #878787;
   background-color: #1c1c1c;
 }
@@ -25,7 +25,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -284,7 +284,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 75px;
   font-weight: 700;
   line-height: 56px;
   color: #ffff
@@ -292,11 +293,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #hero h2 {
-  color: #eee;
+  color: #ffffff;
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 300;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 #hero .btn-get-started {
   font-size: 64px;
@@ -617,7 +618,7 @@ section {
   font-size: 18px;
 }
 .services .title a {
-  color: #111;
+  color: #7c6a5f;
 }
 .services .description {
   font-size: 15px;
@@ -625,13 +626,13 @@ section {
   margin-bottom: 0;
 }
 .services .icon-box:hover .title a, .services .icon-box:hover .description {
-  color: #a58d81;
+  color: #ffffff;
 }
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #7c6a5f;
 }
 .services .icon-box:hover .icon i {
-  color: #1c1c1c;
+  color: #ffffff;
 }
 @media (max-width: 768px) {
   .services .icon-box::before {
