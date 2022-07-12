@@ -627,7 +627,7 @@ section {
   margin-bottom: 0;
 }
 .services .icon-box:hover .title a, .services .icon-box:hover .description {
-  color: #ffffff;
+  color: #b8b8b8;
 }
 .services .icon-box:hover .icon {
   background: #7c6a5f;
