@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/bg.jpg") top center;
+  background: url("../img/bg2.jpg") top center;
   background-size: cover;
   padding: 0 15px;
 }
@@ -368,7 +368,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #ff0080;
+  background-color: #7c6a5f;
   min-height: 40px;
 }
 .breadcrumbs h2 {
@@ -431,7 +431,7 @@ section {
 .about .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #e70c0c;
+  color: #7c6a5f;
   float: left;
   line-height: 0;
 }
@@ -440,7 +440,7 @@ section {
   line-height: 20px;
   display: block;
   font-weight: 700;
-  color: #4d313d;
+  color: #7c6a5f;
   margin-left: 50px;
   font-family: "Playfair Display", serif;
 }
@@ -449,19 +449,19 @@ section {
   margin: 0 0 0 50px;
   font-family: "Playfair Display", serif;
   font-size: 14px;
-  color: #ff0000;
+  color: #7c6a5f;
 }
 .about .content .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #ff0000;
+  color: #7c6a5f;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 .about .content .count-box a:hover {
-  color: #ff0000;
+  color: #7c6a5f;
 }
 .about .image {
   background: url("../img/edit2t\ copy.jpg") center center no-repeat;
@@ -510,7 +510,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #a58d81;
+  background-color: #ae7e66;
 }
 
 /*--------------------------------------------------------------
