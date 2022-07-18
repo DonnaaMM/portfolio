@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Sulphur Point', sans-serif;
   color: #cbcaca;
   background-color: #161616;
 }
@@ -25,7 +25,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 /*--------------------------------------------------------------
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top i {
   font-size: 24px;
-  color: #161616;
+  color: #cbcaca;
   line-height: 0;
 }
 .back-to-top:hover {
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   height: 60px;
-  background: #3c583e;
+  background: #394239;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
 }
 #header .logo h1 {
@@ -76,10 +76,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 800;
   letter-spacing: 0px;
-  text-transform: uppercase;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #161616;
+  color: #cbcaca;
   text-decoration: none;
 }
 #header .logo img {
@@ -117,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 14px;
-  color: #161616;
+  color: #cbcaca;
   white-space: nowrap;
   transition: 0.3s;
 }
