@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #898888;
+  color: #a78970;
   text-decoration: none;
 }
 
 a:hover {
-  color: #a38779;
+  color: #506051;
   text-decoration: none;
 }
 
@@ -511,7 +511,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #6e4142;
+  background-color: #a78970;
 }
 
 /*--------------------------------------------------------------
