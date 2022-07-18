@@ -115,13 +115,13 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 14px;
+  font-size: 18px;
   color: #cbcaca;
   white-space: nowrap;
   transition: 0.3s;
 }
 .navbar a i, .navbar a:focus i {
-  font-size: 12px;
+  font-size: 22px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none;
 }
 .navbar .dropdown ul a i {
-  font-size: 12px;
+  font-size: 18px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #a38779;
@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 18px;
   color: #cbcaca;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
 }
 .navbar-mobile .dropdown ul a i {
-  font-size: 12px;
+  font-size: 18px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
   color: #a38779;
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 10px 0;
   font-family: 'Vibur', cursive;
   text-shadow: 5px 5px 10px black;
-  font-size: 75px;
+  font-size: 80px;
   font-weight: 700;
   line-height: 56px;
   color: #a38779;
@@ -341,7 +341,7 @@ section {
   padding-bottom: 30px;
 }
 .section-title h2 {
-  font-size: 32px;
+  font-size: 38px;
   font-weight: bold;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -352,8 +352,8 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 80px;
-  height: 2px;
+  width: 100px;
+  height: 1px;
   background: #a38779;
   bottom: 0;
   left: 0;
@@ -411,7 +411,7 @@ section {
 }
 .about .content h3 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .gradient-text {
@@ -422,6 +422,7 @@ section {
 
 .about .content p {
   margin-bottom: 0;
+  font-size: 14px;
 }
 .about .content .count-box {
   padding: 20px 0;
@@ -444,7 +445,7 @@ section {
   font-family: 'Sulphur Point', sans-serif;
 }
 .about .content .count-box p {
-  padding: 15px 0 0 0;
+  padding: 12px 0 0 0;
   margin: 0 0 0 50px;
   font-family: 'Sulphur Point', sans-serif;
   font-size: 14px;
@@ -494,7 +495,8 @@ section {
   margin: 0 0 6px 0;
   text-transform: uppercase;
   display: block;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 400;
   font-family: 'Sulphur Point', sans-serif;
   color: #cbcaca;
 }
@@ -516,8 +518,8 @@ section {
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
-  font-size: 26px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 400;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #a78970;
@@ -530,14 +532,14 @@ section {
   position: relative;
 }
 .resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 18px;
-  font-weight: 600;
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: 200;
   color: #424842;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
-  font-size: 16px;
+  font-size: 15px;
   background: #646464;
   padding: 5px 15px;
   display: inline-block;
@@ -608,21 +610,21 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .services .icon i {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1;
   color: #cbcaca;
 }
 .services .title {
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .services .title a {
   color: #a38779;
 }
 .services .description {
   font-size: 15px;
-  line-height: 24px;
+  line-height: 20px;
   margin-bottom: 0;
 }
 .services .icon-box:hover .title a, .services .icon-box:hover .description {
@@ -661,7 +663,7 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
@@ -823,7 +825,7 @@ section {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
   color: #a38779;
@@ -884,19 +886,18 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .contact-about h3 {
-  font-size: 36px;
+  font-size: 40px;
   margin: 0 0 10px 0;
   padding: 0;
-  line-height: 1;
-  font-weight: 300;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  line-height: 2;
+  font-weight: 600;
+  font-family: 'Vibur', cursive;
   color: #a38779;
 }
 .contact .contact-about p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Sulphur Point', sans-serif;
   color: #853c17;
 }
 .contact .social-links {
@@ -931,7 +932,7 @@ section {
   margin-right: 15px;
 }
 .contact .info p {
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
 }
 .contact .php-email-form .error-message {
