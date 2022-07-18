@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   color: #cbcaca;
   background-color: #161616;
 }
@@ -25,7 +25,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -284,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-family: 'Yellowtail', cursive;
+  font-family: 'Dancing Script', cursive;
   text-shadow: 5px 5px 10px black;
   font-size: 75px;
   font-weight: 700;
@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 300;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 #hero .btn-get-started {
   font-size: 64px;
@@ -411,8 +411,8 @@ section {
   padding: 30px 0;
 }
 .about .content h3 {
-  font-weight: 300;
-  font-size: 50px;
+  font-weight: 700;
+  font-size: 45px;
 }
 
 .gradient-text {
@@ -442,12 +442,12 @@ section {
   font-weight: 700;
   color: #a38779;
   margin-left: 50px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Oxygen', sans-serif;
 }
 .about .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Oxygen', sans-serif;
   font-size: 14px;
   color: #a38779;
 }
@@ -457,7 +457,7 @@ section {
   margin-top: 20px;
   color: #a38779;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Oxygen', sans-serif;
   transition: ease-in-out 0.3s;
 }
 .about .content .count-box a:hover {
@@ -496,7 +496,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Oxygen', sans-serif;
   color: #cbcaca;
 }
 .skills .progress .skill .val {
@@ -522,7 +522,7 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #6e4142;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
@@ -544,7 +544,7 @@ section {
   display: inline-block;
   font-weight: 400;
   margin-bottom: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Oxygen', sans-serif;
   color: #cbcaca;
 }
 .resume .resume-item ul {
@@ -897,7 +897,7 @@ section {
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Oxygen', sans-serif;
   color: #853c17;
 }
 .contact .social-links {
