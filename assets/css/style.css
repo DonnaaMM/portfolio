@@ -415,7 +415,7 @@ section {
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(rgb(164, 110, 110), rgb(25, 25, 25));
+  background: -webkit-linear-gradient(rgb(187, 164, 142), rgb(0, 0, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
