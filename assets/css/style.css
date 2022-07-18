@@ -414,10 +414,10 @@ section {
   font-size: 35px;
 }
 
-.gradient-text {
-  background: -webkit-linear-gradient(rgb(176, 155, 135), rgb(13, 18, 16));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+#about-me {
+ font-family: 'Vibur', cursive;
+ font-size: 50px;
+ color: #a38779;
 }
 
 .about .content p {
