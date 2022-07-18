@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #a78970;
+  color: #394239;
   text-decoration: none;
 }
 
 a:hover {
-  color: #506051;
+  color: #a38779;
   text-decoration: none;
 }
 
@@ -415,7 +415,7 @@ section {
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(rgb(187, 164, 142), rgb(0, 0, 0));
+  background: -webkit-linear-gradient(rgb(176, 155, 135), rgb(13, 18, 16));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
