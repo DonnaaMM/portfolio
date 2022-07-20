@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-family: 'Vibur', cursive;
+  font-family: 'Dancing Script', cursive;
   text-shadow: 5px 5px 10px black;
   font-size: 80px;
   font-weight: 700;
@@ -343,7 +343,7 @@ section {
 .section-title h2 {
   font-size: 38px;
   font-weight: bold;
-  font-family: 'Vibur', cursive;
+  font-family: 'Dancing Script', cursive;
   margin-bottom: 15px;
   padding-bottom: 15px;
   position: relative;
@@ -416,7 +416,7 @@ section {
 }
 
 #about-me {
- font-family: 'Vibur', cursive;
+ font-family: 'Dancing Script', cursive;
  font-size: 50px;
  color: #a38779;
 }
@@ -892,7 +892,7 @@ section {
   padding: 0;
   line-height: 2;
   font-weight: 600;
-  font-family: 'Vibur', cursive;
+  font-family: 'Dancing Script', cursive;
   color: #a38779;
 }
 .contact .contact-about p {
