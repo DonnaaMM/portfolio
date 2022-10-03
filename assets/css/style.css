@@ -368,7 +368,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #c5907b;
+  background-color: #cbbdb8;
   min-height: 40px;
 }
 .breadcrumbs h2 {
@@ -389,7 +389,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #fc150d;
+  color: #bebebe;
   content: "/";
 }
 @media (max-width: 768px) {
