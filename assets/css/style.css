@@ -368,7 +368,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #cbbdb8;
+  background-color: #ffffff;
   min-height: 40px;
 }
 .breadcrumbs h2 {
@@ -389,7 +389,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #bebebe;
+  color: #ffffff;
   content: "/";
 }
 @media (max-width: 768px) {
@@ -870,12 +870,12 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgb(109, 36, 36);
+  background-color: rgb(255, 255, 255);
   opacity: 1;
-  border: 1px solid #4d313d;
+  border: 1px solid #ffffff;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4d313d;
+  background-color: #ffffff;
 }
 @media (max-width: 767px) {
   .testimonials {
@@ -899,7 +899,7 @@ section {
   font-size: 20px;
   line-height: 24px;
   font-family: 'Sulphur Point', sans-serif;
-  color: #853c17;
+  color: #ffffff;
 }
 .contact .social-links {
   padding-bottom: 20px;
@@ -985,12 +985,12 @@ section {
   background: #c5907b;
   border: 0;
   padding: 10px 24px;
-  color: rgb(179, 69, 69);
+  color: rgb(255, 255, 255);
   transition: 0.4s;
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #b12c2c;
+  background: #ffffff;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1027,5 +1027,5 @@ section {
   text-align: center;
   font-size: 10px;
   text-align: right;
-  color: #b14343;
+  color: #ffffff;
 }
