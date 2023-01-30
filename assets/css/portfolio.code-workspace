@@ -2,9 +2,12 @@
 	"folders": [
 		{
 			"path": "../.."
+		},
+		{
+			"path": "../../../cloudview"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "portfolio"
+		"liveServer.settings.multiRootWorkspaceName": "cloudview"
 	}
 }
